@@ -1,0 +1,47 @@
+.sugg-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sugg-card {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.sugg-card iframe {
+  width: 180px;
+  min-width: 180px;
+  height: 105px;
+  border: none;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.sugg-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 2px;
+}
+
+.sugg-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sugg-channel,
+.sugg-meta {
+  font-size: 13px;
+  color: #aaaaaa;
+  font-family: "Roboto", sans-serif;
+}
